@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+.name{
+    flex: 5;
+    padding-left: 40px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 3;
+}
+.links a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: black;
+}
+.main{
+    height: 860px;
+    width: 100%;
+    background-image: url(./main.avif);
+    background-size: cover;
+}
+.content{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(33, 32, 32, 0.3);
+    margin:100px 0 0 80px;
+    font-family: sans-serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.cardBox{
+    height:500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+}
+.card button{
+    height: 40px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
+.foot{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .footo{
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .quick{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  .bi{
+    color: white;
+  }
+  .footoo{
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    flex-direction:row;
+    gap: 10px;
+    
+  }
+  .rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  .footer{
+    background-color: black;
+    height:300px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    
+  }
+.fa-brands {
+    color: white;
+}
